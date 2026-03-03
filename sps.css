@@ -1,0 +1,91 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+h1{
+    height: 100px;
+    line-height: 80px;
+    text-align: center;
+    color: burlywood;
+    margin-bottom: 100px;
+    background-color: aqua;
+}
+.choices{
+    height: 30vh;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    /* justify-content: space-evenly; */
+}
+.choice{
+    height: 25vmin;
+    width: 25vmin;
+    display: flex;
+    /* border: 2px solid black; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.scorecard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+    margin-bottom: 50px;
+    /* justify-content: space-evenly; */
+}
+.score{
+    width: 200px;
+    height: 100px;
+    /* border: 2px solid black; */
+}
+p{
+    font-size: 2rem;
+    text-align: center;
+}
+#user{
+    /* border: 2px solid black; */
+    text-align: center;
+    font-size: 3rem;
+}
+#computer{
+    /* border: 2px solid black; */
+    text-align: center;
+    font-size: 3rem;
+}
+
+.message-container{
+    /* border: 2px solid black; */
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#message{
+    background-color: black;
+    color: white;
+    height: 50px;
+    padding: 10px 10px 10px 10px;
+    /* width: 240px; */
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin-left: 30px;
+}
+.choice:hover{
+    opacity: .5;
+    cursor: pointer;
+    /* border: 10px solid black; */
+}
